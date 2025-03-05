@@ -77,7 +77,7 @@ def main():
         playerValue = getHandValue(playerHand)
         dealerValue = getHandValue(dealerHand)
         if dealerValue > 21:
-            print(f'Dealer busts! You win ${bet}')
+            print(f'Dealer busts! You win the game and get  ${bet}')
             money += bet
         elif (playerValue > 21) or (playerValue < dealerValue):
             print('You Lost!')
